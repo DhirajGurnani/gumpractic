@@ -55,7 +55,7 @@ var db_name = "db" ;
 */
 
 
-var db_host = "ec2-52-53-254-105.us-west-1.compute.amazonaws.com" ;
+var db_host = "ec2-54-67-63-207.us-west-1.compute.amazonaws.com" ;
 var db_port = "27017" ;
 var db_user = "" ;
 var db_pwd  = "" ;
