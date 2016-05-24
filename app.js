@@ -57,8 +57,6 @@ var db_name = "db" ;
 
 var db_host = "ec2-54-67-63-207.us-west-1.compute.amazonaws.com" ;
 var db_port = "27017" ;
-var db_user = "" ;
-var db_pwd  = "" ;
 var db_name = "test" ;
 
    
@@ -281,7 +279,7 @@ db_init(function (err, results) {
         //db.collections(function(err, collections) {
         //    console.log(collections);
         //});
-        app.listen(3000);
+        app.listen(process.env.PORT || 3000);
     }
 });
 
